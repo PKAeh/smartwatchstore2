@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+
+#bg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#clock-bg1 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: #424242;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#clock-bg2 {
+    display: flex;
+    width: 230px;
+    height: 230px;
+    background-color: #242424;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#circle {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 211, 211);
+    border-radius: 50%;
+    border: dotted white;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    text-align: center;
+}
+
+#date {
+    font-size: 1.2em;
+}
+
+#time {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#date,
+#time {
+    color: white;
+}
